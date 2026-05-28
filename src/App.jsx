@@ -47,7 +47,7 @@ export default function App() {
     const total = carrinho.reduce((acc, item) => acc + Number(item.preco), 0);
     mensagem += `\n*Total:* R$ ${total.toFixed(2)}`;
     
-    const numeroWhats = "5541998566238"; // Mude para o número do cliente!
+    const numeroWhats = "5545998566238"; // Mude para o número do cliente!
     window.open(`https://api.whatsapp.com/send?phone=${numeroWhats}&text=${encodeURIComponent(mensagem)}`, '_blank');
   };
 
