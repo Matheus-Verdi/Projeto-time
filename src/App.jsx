@@ -57,7 +57,7 @@ export default function App() {
     mensagem += `\n*Total:* R$ ${total.toFixed(2)}`;
 
     // Substitua pelo número de WhatsApp do seu cliente (ex: 5541999999999)
-    const numeroWhats = "5585998566238"; 
+    const numeroWhats = "5545998566238"; 
     const url = `https://api.whatsapp.com/send?phone=${numeroWhats}&text=${encodeURIComponent(mensagem)}`;
     
     window.open(url, '_blank');
